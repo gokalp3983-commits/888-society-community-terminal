@@ -3,7 +3,7 @@
   "project": {
     "id": "888-society",
     "name": "888 SOCIETY",
-    "ticker": "$888SOCIETY605141138",
+    "ticker": "$888SOCIETY",
     "version": "1.0.0",
     "ecosystem": "Robinhood Chain"
   },
@@ -12,7 +12,7 @@
     "configSchemaVersion": 1,
     "terminalEngineVersion": "1.0.0"
   },
-  "generatedAt": "2026-08-16T19:38:13.861Z",
+  "generatedAt": "2026-08-16T19:48:40.672Z",
   "releaseStatus": "deployment-ready",
   "chain": {
     "type": "EVM",

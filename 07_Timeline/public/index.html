@@ -12,8 +12,8 @@
   <script>
 (()=>{const root=document.documentElement,links=[...document.querySelectorAll('link[rel="stylesheet"]')];if(!links.length){root.classList.add("ctb-styles-ready");return;}let remaining=links.length,revealed=false;const settle=()=>{remaining-=1;if(remaining<=0&&!revealed){revealed=true;root.classList.add("ctb-styles-ready");}};for(const link of links){if(link.sheet){settle();continue;}link.addEventListener("load",settle,{once:true});link.addEventListener("error",settle,{once:true});}setTimeout(()=>{if(!revealed){revealed=true;root.classList.add("ctb-styles-ready");}},8000);})();
   </script>
-  <link rel="icon" href="favicon.png">
-  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon" href="/timeline/assets/888-society-mascot.png">
+  <link rel="apple-touch-icon" href="/timeline/assets/888-society-mascot.png">
 </head>
 <body>
   <div id="terminal-workspace" class="terminal-workspace">

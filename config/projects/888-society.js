@@ -1,15 +1,15 @@
 "use strict";
 module.exports = {
-  "generatedAt": "2026-08-16T19:38:13.861Z",
+  "generatedAt": "2026-08-16T19:48:40.672Z",
   "project": {
     "id": "888-society",
     "name": "888 SOCIETY",
     "displayName": "888 SOCIETY",
-    "ticker": "$888SOCIETY605141138",
+    "ticker": "$888SOCIETY",
     "version": "1.0.0",
-    "description": "888 society NFT Collection Portal",
+    "description": "888 Society NFT Collection Portal",
     "ecosystem": "Robinhood Chain",
-    "promptUser": "888society605141138",
+    "promptUser": "888society",
     "promptHost": "robinhood"
   },
   "contracts": {
@@ -23,7 +23,7 @@ module.exports = {
     "cacheTtlMs": 30000
   },
   "branding": {
-    "mascot": "/assets/888-society-mascot.svg",
+    "mascot": "/assets/888-society-mascot.png",
     "mascotAlt": "888 SOCIETY mascot",
     "themeColor": "#020806",
     "colors": {
@@ -77,7 +77,7 @@ module.exports = {
     "mintPhases": [
       {
         "id": "phase-1",
-        "label": "SIGNED PRESALE",
+        "label": "ALLOWLIST",
         "name": "I know a guy (team/mods)",
         "startsAt": "2026-08-16T21:08:00+03:00",
         "endsAt": "2026-08-16T22:03:00+03:00",
@@ -87,7 +87,7 @@ module.exports = {
       },
       {
         "id": "phase-2",
-        "label": "SIGNED PRESALE",
+        "label": "ALLOWLIST",
         "name": "don't embarrASS us. (GTD)",
         "startsAt": "2026-08-16T22:03:00+03:00",
         "endsAt": "2026-08-17T01:36:00+03:00",
@@ -97,11 +97,11 @@ module.exports = {
       },
       {
         "id": "phase-3",
-        "label": "PUBLIC SALE",
+        "label": "PUBLIC",
         "name": "the public humiliation",
         "startsAt": "2026-08-17T01:36:00+03:00",
         "endsAt": "2026-08-17T07:36:00+03:00",
-        "price": "2670000000000000",
+        "price": "5.04 USDG",
         "limit": "1",
         "timezone": "Europe/Istanbul"
       }
@@ -111,7 +111,7 @@ module.exports = {
     "whaleThreshold": 10
   },
   "timeline": {
-    "createdAt": "2026-08-16T19:38:13.861Z",
+    "createdAt": "2026-08-16T19:48:40.672Z",
     "events": []
   },
   "features": {
