@@ -1,0 +1,19 @@
+{
+  "name": "888-society-community-terminal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unified 888 SOCIETY Community Terminal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "test": "node validate-generated.js",
+    "test:deployed": "node verify-deployment.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

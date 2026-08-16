@@ -1,0 +1,41 @@
+{
+  "product": "Community Terminal",
+  "project": {
+    "id": "888-society",
+    "name": "888 SOCIETY",
+    "ticker": "$888SOCIETY605141138",
+    "version": "1.0.0",
+    "ecosystem": "Robinhood Chain"
+  },
+  "builder": {
+    "version": "1.3.2-b",
+    "configSchemaVersion": 1,
+    "terminalEngineVersion": "1.0.0"
+  },
+  "generatedAt": "2026-08-16T19:38:13.861Z",
+  "releaseStatus": "deployment-ready",
+  "chain": {
+    "type": "EVM",
+    "dexScreenerChainId": "robinhood",
+    "blockscoutApiBase": "https://robinhoodchain.blockscout.com/api/v2"
+  },
+  "enabledModules": [
+    "nft"
+  ],
+  "routes": {
+    "home": "/",
+    "health": "/healthz",
+    "healthLegacy": "/health",
+    "status": "/status",
+    "whales": null,
+    "intel": null,
+    "nft": "/nft",
+    "pulse": null,
+    "timeline": null
+  },
+  "deployment": {
+    "provider": "Render Blueprint compatible",
+    "blueprint": "render.yaml",
+    "publicAcceptanceCommand": "npm run test:deployed -- https://YOUR-TERMINAL.onrender.com"
+  }
+}
